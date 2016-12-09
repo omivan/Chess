@@ -245,7 +245,6 @@ begin
   // Конь
   if map[col,row]=4
   then  begin
-  //Canvas.Rectangle(col*65,row*65,col*65+65,row*65+65);
    Canvas.Rectangle((col-1)*65,(row-1)*65,(col-1)*65+65,(row-1)*65+65);
 
   end;

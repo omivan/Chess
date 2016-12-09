@@ -11,7 +11,7 @@ object Form1: TForm1
   Constraints.MinWidth = 975
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
+  Font.Height = -14
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
@@ -19,22 +19,22 @@ object Form1: TForm1
   OnMouseDown = FormMouseDown
   OnMouseMove = FormMouseMove
   OnMouseUp = FormMouseUp
-  PixelsPerInch = 96
-  TextHeight = 13
+  PixelsPerInch = 120
+  TextHeight = 17
   object Panel1: TPanel
-    Left = 816
-    Top = 536
-    Width = 145
-    Height = 57
+    Left = 1067
+    Top = 701
+    Width = 190
+    Height = 74
     TabOrder = 0
     object Label1: TLabel
       Left = 1
       Top = 1
-      Width = 12
-      Height = 55
+      Width = 16
+      Height = 72
       Font.Charset = RUSSIAN_CHARSET
       Font.Color = clRed
-      Font.Height = -48
+      Font.Height = -63
       Font.Name = 'Times New Roman'
       Font.Style = [fsBold]
       ParentFont = False
